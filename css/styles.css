@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo, #logo2up, #logo2down {
+    height: 25vh;
+    width: 100vw;
+    
+    background-color: gray;
+
+    
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    margin-bottom: 25vh;
+    align-items: center;
+}
+#logo2up {
+    align-items: end;
+    margin-bottom: 0;
+}
+#logo2down {
+    margin-top: 0;
+    align-items: start;
+}
+
+
+.box {
+    height: 8em;
+    width: 8em;
+    margin:1em;
+    background-color: lightgray;
+}
+.box2 {
+    height: 8em;
+    width: 8em;
+    margin-left:1em;
+    margin-right:1em;
+    background-color: lightpink;
+}
+.letter {
+    color: gray;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10em;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.pp {
+    border-radius: 10% 50% 50% 0;
+}
+.ppp {
+    transform:scaleX(0.1);
+    transform-origin: left;
+}
+.rr {
+    border-radius: 10% 50% 50% 0;
+}
+.rrr {
+    border-radius: 0 50% 0 50%;
+}
+.oo, .uu {
+    border-radius: 100% 0 0 0;
+    margin-right: 0;
+}
+.oo2, .uu2 {
+    border-radius: 0 100% 0 0;
+    margin-left: 0;
+}
+.ooo, .uuu {
+    border-radius: 0 0 0 100%;
+    margin-right: 0;
+}
+.ooo2, .uuu2 {
+    border-radius: 0 0 100% 0;
+    margin-left: 0;
+}
+
+.ss {
+    border-radius: 50% 0 0 50%;
+    margin-right: 0;
+}
+.sss {
+    background-color: gray;
+    margin-right: 0;
+}
+.ss2 {
+    background-color: gray;
+    margin-left: 0;
+}
+.sss2 {
+    border-radius: 0 50% 50% 0;
+    margin-left: 0;
+}
+.tt {
+    border-radius: 0;
+}
+.ttt {
+    border-radius: 0;
+    transform:scaleX(0.1);
+}
