@@ -25,6 +25,9 @@ body {
 /* .h-5 {height: 5%;}
 .h-20 {height: 20%;} */
 
+.backButton {
+    height: 100vh;
+}
 .left {
     display: flex;
     flex-direction: row;
