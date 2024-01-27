@@ -141,10 +141,7 @@ a {
 .textoQuote {
     color: goldenrod;
     font-size: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .marginTop {
@@ -180,3 +177,15 @@ a {
     color: black;
     font-weight: bold;
 }
+.btn {
+    border: 0.01em solid whitesmoke;
+    margin: 1em;
+    
+}
+form button a {
+    color: whitesmoke
+}
+.form-control, .form-check-input {
+    background-color: transparent;
+}
+.form-text {color:whitesmoke}
