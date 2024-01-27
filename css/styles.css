@@ -1,109 +1,92 @@
-body {
+
+/* body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-}
-
-#logo, #logo2up, #logo2down {
-    height: 25vh;
-    width: 100vw;
-    
-    background-color: gray;
-
-    
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-
+} */
+.altura {
+    height: 100vh;
+    width:100vw;
+}
+.centered {
     display: flex;
     flex-direction: row;
-}
-#logo{
-    margin-bottom: 25vh;
     align-items: center;
+    justify-content: center;
+    margin:0;
+    padding: 0;
 }
-#logo2up {
-    align-items: end;
-    margin-bottom: 0;
-}
-#logo2down {
-    margin-top: 0;
-    align-items: start;
-}
+/* .h-5 {height: 5%;}
+.h-20 {height: 20%;} */
 
-
-.box {
-    height: 8em;
-    width: 8em;
-    margin:1em;
-    background-color: lightgray;
-}
-.box2 {
-    height: 8em;
-    width: 8em;
-    margin-left:1em;
-    margin-right:1em;
-    background-color: lightpink;
-}
-.letter {
-    color: gray;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10em;
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: start;
+}
+
+.tresFotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+.foto {
+    display: flex;
+    flex-direction: column;
+    height:15em;
+    width: 15em;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+:hover {
+    transition: 0.5s;   
+}
+
+
+.cartaText, .aboutText, .contactText {
+    background-color: whitesmoke;
+    height: 90vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-top: 2em;
+    justify-content: center;
 }
 
-.pp {
-    border-radius: 10% 50% 50% 0;
+.menu:hover {
+    background-color: lightblue;
 }
-.ppp {
-    transform:scaleX(0.1);
-    transform-origin: left;
-}
-.rr {
-    border-radius: 10% 50% 50% 0;
-}
-.rrr {
-    border-radius: 0 50% 0 50%;
-}
-.oo, .uu {
-    border-radius: 100% 0 0 0;
-    margin-right: 0;
-}
-.oo2, .uu2 {
-    border-radius: 0 100% 0 0;
-    margin-left: 0;
-}
-.ooo, .uuu {
-    border-radius: 0 0 0 100%;
-    margin-right: 0;
-}
-.ooo2, .uuu2 {
-    border-radius: 0 0 100% 0;
-    margin-left: 0;
+.menu2{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
 }
 
-.ss {
-    border-radius: 50% 0 0 50%;
-    margin-right: 0;
+.about:hover {
+    background-color: rgb(231, 201, 205);
 }
-.sss {
-    background-color: gray;
-    margin-right: 0;
+.about2 {
+    background-color: rgb(231, 201, 205);
+    color: black;
+    font-weight: bold;
 }
-.ss2 {
-    background-color: gray;
-    margin-left: 0;
+.contact:hover {
+    background-color: lightgoldenrodyellow;
 }
-.sss2 {
-    border-radius: 0 50% 50% 0;
-    margin-left: 0;
-}
-.tt {
-    border-radius: 0;
-}
-.ttt {
-    border-radius: 0;
-    transform:scaleX(0.1);
+.contact2 {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-weight: bold;
 }
