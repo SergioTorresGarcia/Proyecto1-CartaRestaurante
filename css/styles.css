@@ -73,7 +73,7 @@ a div:hover {
     height: 15em;
     width: 15em;
 }
-
+.indent {margin-left: 1em;}
 a {
     text-decoration: none;
     color: gray;
@@ -85,20 +85,22 @@ a {
     color: whitesmoke
 }
 
-.lineIcons{
+.lineIcons {
     height: 5em;
     width: 30em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
-} 
+
+}
+
 .fa {
     font-size: 2em;
     opacity: 0.5;
     color: whitesmoke;
 }
+
 .fa:hover {
     opacity: 1;
 }
@@ -115,12 +117,14 @@ a {
     align-items: flex-start;
     justify-content: center;
 }
+
 .quote {
     font-size: 2em;
     color: goldenrod;
-    margin:3em;
+    margin: 3em;
     letter-spacing: 0;
 }
+
 .quote:hover {
     /* transition: 1s; */
     color: goldenrod;
@@ -138,6 +142,7 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 .textoQuote {
     color: goldenrod;
     font-size: 2em;
@@ -177,15 +182,45 @@ a {
     color: black;
     font-weight: bold;
 }
+
 .btn {
     border: 0.01em solid whitesmoke;
     margin: 1em;
-    
+
 }
+
 form button a {
     color: whitesmoke
 }
-.form-control, .form-check-input {
+
+.form-control,
+.form-check-input {
     background-color: transparent;
 }
-.form-text {color:whitesmoke}
+
+.form-text {
+    color: whitesmoke
+}
+
+.blockquote {
+    width: 18em;
+    font-family: Georgia, serif;
+    font-size: 2em;
+    font-style: italic;
+    
+    margin: 1em;
+    color: lightgray;
+}
+
+.blockquote:before {
+    content: "\201C";
+    font-size: 3em;
+    color: goldenrod;
+}
+
+.cite {
+    font-size: 0.5em;
+    color: goldenrod;
+    display: block;
+    margin-top: 1em;
+}
