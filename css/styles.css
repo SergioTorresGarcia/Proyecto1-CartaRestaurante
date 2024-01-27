@@ -1,12 +1,9 @@
 
-/* body {
+body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-} */
+
+}
 .altura {
     height: 100vh;
     width:100vw;
@@ -19,6 +16,11 @@
     margin:0;
     padding: 0;
 }
+.prosto:hover {
+    transition: 1s;
+    color: black !important;
+}
+
 /* .h-5 {height: 5%;}
 .h-20 {height: 20%;} */
 
@@ -26,12 +28,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
+
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
 }
 
 .tresFotos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: end;
     align-items: end;
 }
@@ -48,23 +57,33 @@ a {
 }
 a:hover {
     color: black;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 :hover {
     transition: 0.5s;   
 }
 
 
-.cartaText, .aboutText, .contactText {
-    background-color: whitesmoke;
-    height: 90vh;
-    width: 45vw;
+.boxText {
+    border: 0.1em solid whitesmoke;
+    color:whitesmoke;
+    height: 95vh;
+    width: 42vw;
+    margin-left:1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.textoMenu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
-
+.marginTop {
+    margin-top: 2em;
+}
 .menu:hover {
     background-color: lightblue;
 }
