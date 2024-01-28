@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    max-height: 100vh;
 }
 
 .altura {
@@ -16,8 +17,21 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
+    overflow: scroll;
 }
 
+.down{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.up {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
 .left {
     display: flex;
     flex-direction: row;
@@ -32,6 +46,8 @@ body {
     align-items: center;
     justify-content: flex-end;
 }
+
+
 
 
 :hover {
@@ -52,6 +68,7 @@ a div:hover {
 
 .backButton {
     height: 100vh;
+    min-width: 4em;
 }
 
 .backButton:hover {
@@ -59,21 +76,26 @@ a div:hover {
     letter-spacing: 0;
 }
 
-
-.tresFotos {
+.gallery {
+    height: 100vh;
+    width: 45em;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    flex-wrap: wrap;
 }
 
 .foto {
     display: flex;
     flex-direction: column;
-    height: 15em;
-    width: 15em;
+    height: 25em;
+    width: 25em;
 }
+
 .indent {margin-left: 1em;}
+
 a {
     text-decoration: none;
     color: gray;
@@ -90,7 +112,7 @@ a {
     width: 30em;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 
 }
@@ -110,12 +132,16 @@ a {
     border-left: 0.1em solid whitesmoke;
     color: whitesmoke;
     height: 95vh;
-    width: 42vw;
-    margin-left: 1em;
+    width: 75vw;
+
+    margin: 0 1em 0 2em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
 }
 
 .quote {
@@ -132,15 +158,15 @@ a {
     letter-spacing: 0;
 }
 
-.up {
-    justify-content: flex-start;
-}
 
-.textoMenu {
+
+.textoMenu, .textoContact .textoAbout {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 34em;
+    
 }
 
 .textoQuote {
@@ -203,13 +229,15 @@ form button a {
 }
 
 .blockquote {
-    width: 18em;
+    margin:0;
+    padding: 0;
     font-family: Georgia, serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
     
-    margin: 1em;
+    margin-left: 1em;
     color: lightgray;
+
 }
 
 .blockquote:before {
@@ -223,4 +251,21 @@ form button a {
     color: goldenrod;
     display: block;
     margin-top: 1em;
+}
+.h10 {
+    height: 1em;
+}
+.h90 {
+    height: 10em;
+}
+
+/* .fixedElement {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+} */
+
+.row {
+    max-height: 100vh;
 }
