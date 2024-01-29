@@ -2,12 +2,26 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    max-height: 100vh;
-}
 
-.altura {
     height: 100vh;
     width: 100vw;
+}
+hr {
+    margin-top: -0.3em;
+}
+.container-fluid {
+    min-height: 100vh;
+}
+@media (max-width: 992px) {
+    .fixedMenu {
+
+        position:fixed;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+  }
+.seeTop {
+    min-height: 100vh;
 }
 
 .centered {
@@ -18,37 +32,32 @@ body {
     margin: 0;
     padding: 0;
     overflow: scroll;
+    
 }
-
-.down{
+.boxText {
+    border-left: 0.1em solid whitesmoke;
+    color: whitesmoke;
+    
+    width: 75vw;
+    height: 100vh;
+    margin: 0 1em 0 2em;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-}
-.up {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
 }
-.left {
+
+.textoMenu, .textoContact .textoAbout {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-
+    justify-content: center;
+    width: 34em;
+    
 }
-
-.right {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-
-
 
 :hover {
     transition: 0.5s;
@@ -62,7 +71,13 @@ a div:hover {
 }
 
 .prosto>div {
-    color: whitesmoke
+    color: whitesmoke;
+}
+.prostoName {
+    font-size: x-large;
+}
+.restName {
+    font-style: oblique;
 }
 
 
@@ -128,21 +143,7 @@ a {
 }
 
 
-.boxText {
-    border-left: 0.1em solid whitesmoke;
-    color: whitesmoke;
-    height: 95vh;
-    width: 75vw;
 
-    margin: 0 1em 0 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    overflow-y: scroll;
-    overflow-x: hidden;
-
-}
 
 .quote {
     font-size: 2em;
@@ -160,14 +161,7 @@ a {
 
 
 
-.textoMenu, .textoContact .textoAbout {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 34em;
-    
-}
+
 
 .textoQuote {
     color: goldenrod;
@@ -258,13 +252,6 @@ form button a {
 .h90 {
     height: 10em;
 }
-
-/* .fixedElement {
-    position:fixed;
-    top:0;
-    width:100%;
-    z-index:100;
-} */
 
 .row {
     max-height: 100vh;
