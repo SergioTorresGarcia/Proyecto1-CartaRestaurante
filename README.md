@@ -1,41 +1,43 @@
 # PROSTO Restaurant
 
-This is the FIRST PROJECT of the Full Stack Development Bootcamp with Geekshubs Academy. Based only on HTML and CSS.
+1️⃣  This is the FIRST PROJECT of the Full Stack Development Bootcamp with Geekshubs Academy. Based only on HTML and CSS.
 
-Most up-to-date version here: https://sergiotorresgarcia.github.io/Proyecto1-CartaRestaurante/
+👌  Most up-to-date version here: https://sergiotorresgarcia.github.io/Proyecto1-CartaRestaurante/
 
-### Preview:
-<img width="619" alt="homepage" src="./img/galleryPROSTO.png">
+<img width="600" alt="homepage" src="./img/btns.gif"> 
 
+### 🫵 Challenge introduction
 
-### Challenge introduction
+- Design and create a restaurant website to practice and show the adquired knowledge during the first week of the course 💡 
 
-- Design and create a restaurant website to practice and show the adquired knowledge during the first week of the course.
+- Creation of AT LEAST 3 pages (home, contact and menu) 📃 + 📃 + 📃
 
-- Creation of AT LEAST 3 pages (home, contact and menu).
-
-- Technical stack:
+- Technical stack: 💻
     - HTML5 
     - CSS3
     - CSS Layout (Flexbox & Grid)
     - elements of Bootstrap
     
     
-- Special attention to design, visual cleanness and RESPONSIVENESS.
+- Special attention to design, visual cleanness and RESPONSIVENESS 🔝
 
-- Web deployment with Github Pages
-- Mandatory README file
+- Web deployment with Github Pages 🛜
+  
+- Mandatory README file ⚠️
+  
+<img width="600" alt="homepage" src="./img/galleryPROSTO.png">
 
-### Coding process:
-- ##### Coding time: 25 horas.
-- ##### Web structure (6 pages)
-    HOME (index.html):
+###  ➡️  Coding process:
+- ##### Coding time: 25 - 30 hours ⏳
+  
+- ##### Web structure (6 pages) 💪
+  -    HOME (index.html):
         -   MENU (menu.html)
         -   ABOUT (about.html)
         -   CONTACT (contact.html > register.html)
         -   GALLERY (gallery.html)
 
-- ##### Project explanation:
+- ##### Project explanation: 💬
     -   After looking for some inspiration (gastronomy sites and others) I settled for a minimalistic design.
     -   I've decided to use a Bootstrap-based model to compose the web structure and Flexbox elements to fill in the areas.
     -   I've also adjusted Bootstrap elements for the log in and registration forms.
@@ -45,7 +47,7 @@ Most up-to-date version here: https://sergiotorresgarcia.github.io/Proyecto1-Car
         -   CONTACT displays a LOG IN form (and an extra REGISTER button for new commers)
         -   REGISTER page is only reachable through the register button (within the contact and about pages)
     -   From the HOME page and clicking anywhere, other than the 3 big buttons, it takes you to the GALLERY page where there are a few pictures and an inspirational quote (plus the back (home) button)
-    -  Have a look: https://sergiotorresgarcia.github.io/Proyecto1-CartaRestaurante/
+###  👀  Have a look: https://sergiotorresgarcia.github.io/Proyecto1-CartaRestaurante/
 
 - ##### Stack:
     <img src="https://img.shields.io/badge/HTML-E34F26">
